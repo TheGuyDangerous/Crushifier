@@ -109,8 +109,6 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('audio/thebetterchoice.mp3');
-    audio.play();
     Swal.fire({
         title: CONFIG.question,
         html: true,
